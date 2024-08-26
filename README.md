@@ -11,7 +11,7 @@ To get started with the Kanban Board, follow these simple steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/kanban-board.git
+   git clone https://github.com/abhishreypant/saral-frontend-assignment.git
    ```
 
 2. Navigate to the project directory:
