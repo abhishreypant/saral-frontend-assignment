@@ -22,7 +22,6 @@ const UserProfile = () => {
 					}}
 				/>
 			)}{" "}
-			{/* Render the modal conditionally */}
 		</div>
 	);
 };

@@ -2,7 +2,6 @@ import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { iconProps } from "../../utils/props";
 
-// Define the types for the props
 interface DropDownProps {
 	defaultValue: string;
 	options: string[];
@@ -22,7 +21,6 @@ const DropDown = ({ defaultValue, options, name, onChange }: DropDownProps) => {
 		setSelected(option);
 		setIsOpen(false);
 		if (onChange) {
-			// Call the onChange function if provided
 			onChange({ target: { name, value: option } } as React.ChangeEvent<{
 				name: string;
 				value: string;

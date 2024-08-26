@@ -3,11 +3,10 @@ import { motion } from "framer-motion";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import Dropdown from "../essentials/DropDown"; // Import your Dropdown component
+import Dropdown from "../essentials/DropDown";
 import { iconProps } from "../../utils/props";
 import Button from "../essentials/Button";
 
-// Define the schema for form validation
 const schema = z.object({
 	name: z.string().min(1, "Name is required"),
 	username: z.string().min(1, "Username is required"),
@@ -37,8 +36,8 @@ const AddCreatorModal = ({
 	} = useForm<FormData>({
 		resolver: zodResolver(schema),
 		defaultValues: {
-			platform: "Instagram", // Default platform
-			column: "Prospects", // Default column
+			platform: "Instagram",
+			column: "Prospects",
 		},
 	});
 

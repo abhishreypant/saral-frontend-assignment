@@ -11,7 +11,7 @@ interface StoreState {
 }
 
 export const useDraggedStore = create<StoreState>((set) => ({
-	isDragging: false, // Added initial state for isDragging
+	isDragging: false,
 	draggedIndex: [0, 0], // Initial value
 	draggedInfluencer: null,
 	setIsDragging: (isDragging) => set({ isDragging }),

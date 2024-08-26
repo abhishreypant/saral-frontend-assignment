@@ -15,7 +15,7 @@ type KanbanStore = {
 		influencer: Influencer | null
 	) => void;
 	removeInfluencer: (username: string) => void;
-	pushInfluencer: (columnIndex: number, influencer: Influencer | null) => void; // Adjusted to handle null
+	pushInfluencer: (columnIndex: number, influencer: Influencer | null) => void;
 };
 
 export const useKanbanStore = create<KanbanStore>((set) => ({
@@ -26,13 +26,13 @@ export const useKanbanStore = create<KanbanStore>((set) => ({
 	) => {
 		if (!influencer) {
 			alert("Cannot add null influencer");
-			return; // Exit if influencer is null
+			return;
 		}
 		set((state) => {
 			const column = state.columns[columnIndex];
 			if (column.influencers.some((i) => i.username === influencer.username)) {
 				alert("Username already exists");
-				return state; // Return the state unchanged
+				return state;
 			}
 			return {
 				columns: state.columns.map((col, index) =>
@@ -62,13 +62,13 @@ export const useKanbanStore = create<KanbanStore>((set) => ({
 	pushInfluencer: (columnIndex: number, influencer: Influencer | null) => {
 		if (!influencer) {
 			alert("Cannot add null influencer");
-			return; // Exit if influencer is null
+			return;
 		}
 		set((state) => {
 			const column = state.columns[columnIndex];
 			if (column.influencers.some((i) => i.username === influencer.username)) {
 				alert("Username already exists");
-				return state; // Return the state unchanged
+				return state;
 			}
 			return {
 				columns: state.columns.map((col, index) =>
