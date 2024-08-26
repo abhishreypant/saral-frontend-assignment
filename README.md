@@ -1,51 +1,56 @@
-# React + TypeScript + Vite
+# Kanban Board - Saral Frontend Engineering Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to the Kanban Board project! This application is designed to help you organize and manage your influencers by categorizing them into different stages of engagement, such as Prospects, In Conversations, and Rejected. It provides a visual interface to easily drag and drop influencers between stages, making it a powerful tool for efficient management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+To get started with the Kanban Board, follow these simple steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+   ```
+   git clone https://github.com/yourusername/kanban-board.git
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. Navigate to the project directory:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```
+   cd kanban-board
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. Install the dependencies:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# saral-frontend-assignment
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm run dev
+   ```
+
+##Features & Highlights
+#####Drag and Drop: A fully functional drag-and-drop feature implemented from scratch for intuitive organization. 🖱️
+#####Animated Components: Smooth animations enhance the user experience and make interactions more engaging. ✨
+#####Beautiful UI: A visually appealing design using TailwindCSS to ensure a modern and clean interface. 🎨
+##Tech Stack
+#####React: For building user interfaces.
+#####Vite: For fast development and build processes.
+#####TailwindCSS: For styling and responsive design.
+
+##Future Improvements
+While the current implementation is functional, there are areas for improvement:
+
+######Optimized Code: Future updates will focus on writing more efficient and optimized code to enhance performance.
+######Enhanced Testing: Adding more comprehensive test cases to ensure the robustness and reliability of the application.
+
+##Currently Fixing
+Small Glitches Inside the Kanban Board.
+
+Writing Test Cases: We are actively working on adding and improving test cases to ensure high-quality code and functionality.
+
+##Thank You!
+Thank you for checking out the Kanban Board project!!
