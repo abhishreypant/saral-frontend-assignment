@@ -32,25 +32,36 @@ To get started with the Kanban Board, follow these simple steps:
    npm run dev
    ```
 
-##Features & Highlights
-#####Drag and Drop: A fully functional drag-and-drop feature implemented from scratch for intuitive organization. 🖱️
-#####Animated Components: Smooth animations enhance the user experience and make interactions more engaging. ✨
-#####Beautiful UI: A visually appealing design using TailwindCSS to ensure a modern and clean interface. 🎨
-##Tech Stack
-#####React: For building user interfaces.
-#####Vite: For fast development and build processes.
-#####TailwindCSS: For styling and responsive design.
+## Features & Highlights
 
-##Future Improvements
+##### Drag and Drop: A fully functional drag-and-drop feature implemented from scratch for intuitive organization. 🖱️
+
+##### Animated Components: Smooth animations enhance the user experience and make interactions more engaging. ✨
+
+##### Beautiful UI: A visually appealing design using TailwindCSS to ensure a modern and clean interface. 🎨
+
+## Tech Stack
+
+##### React: For building user interfaces.
+
+##### Vite: For fast development and build processes.
+
+##### TailwindCSS: For styling and responsive design.
+
+## Future Improvements
+
 While the current implementation is functional, there are areas for improvement:
 
-######Optimized Code: Future updates will focus on writing more efficient and optimized code to enhance performance.
-######Enhanced Testing: Adding more comprehensive test cases to ensure the robustness and reliability of the application.
+###### Optimized Code: Future updates will focus on writing more efficient and optimized code to enhance performance.
 
-##Currently Fixing
+###### Enhanced Testing: Adding more comprehensive test cases to ensure the robustness and reliability of the application.
+
+## Currently Fixing
+
 Small Glitches Inside the Kanban Board.
 
 Writing Test Cases: We are actively working on adding and improving test cases to ensure high-quality code and functionality.
 
-##Thank You!
+## Thank You!
+
 Thank you for checking out the Kanban Board project!!
